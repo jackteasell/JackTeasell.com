@@ -3,7 +3,7 @@
   src: url(assets/Oswald-ExtraLight.ttf);
 }
 body {
-  background-image: url('assets/background.JPG');
+  background-image: url('assets/background.jpg');
   background-size: cover;
 }
 #centered {
