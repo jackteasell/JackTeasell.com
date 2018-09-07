@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Oswald;
+    src: url(assets/Oswald-ExtraLight.ttf);
+}
+body {
+    background-image: url('assets/background.jpeg');
+    background-size: cover;
+}
+#centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+#splash-header {
+    position: absolute;
+    font: 70px Oswald, sans-serif;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -400%);
+}
+
+#centered li {
+    float: left;
+    padding-left: 40px;
+    text-decoration: none;
+    color: black;
+    font: 50px Oswald, sans-serif;
+}
+
+
+#centered a {
+    text-decoration: none;
+    color: black;
+}
