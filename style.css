@@ -1,16 +1,17 @@
+/* Fonts */
 @font-face {
   font-family: Oswald;
   src: url(assets/Oswald-ExtraLight.ttf);
 }
+
 body {
-  background-image: url('assets/background.jpg');
+  background-image: url('assets/background.JPG');
   background-size: cover;
 }
-#centered {
+.centered {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 #splash-header {
@@ -22,15 +23,34 @@ body {
   transform: translate(-50%, -300%);
 }
 
-#centered li {
+.centered li {
   float: left;
   padding-left: 40px;
   text-decoration: none;
   color: white;
   font: 50px Oswald, sans-serif;
+  padding-bottom: 40px;
 }
 
-#centered a {
+.centered a {
   text-decoration: none;
   color: white;
+}
+button {
+  background-color: none;
+  text-decoration: none;
+  color: white;
+}
+div {
+  color: white;
+}
+
+/* Animations */
+
+.items {
+  transition: 50ms;
+}
+.items:hover {
+  color: red;
+  cursor: pointer;
 }
