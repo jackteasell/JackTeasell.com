@@ -61,6 +61,7 @@ div {
 .items {
   transition: 50ms;
 }
+
 .items:hover {
   color: red;
   cursor: pointer;
@@ -70,6 +71,7 @@ div {
   padding-left: 20%;
   list-style: circle;
 }
+
 #text a {
   text-decoration: none;
 }
