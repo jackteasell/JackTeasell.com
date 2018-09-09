@@ -3,6 +3,7 @@
   font-family: Oswald;
   src: url(assets/Oswald-ExtraLight.ttf);
 }
+
 html {
   background: url(assets/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
