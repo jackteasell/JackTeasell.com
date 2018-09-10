@@ -4,7 +4,7 @@
   src: url(assets/Oswald-ExtraLight.ttf);
 }
 
-/*
+
 html {
   background: url(assets/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -77,21 +77,10 @@ div {
 
 #text a {
   text-decoration: none;
-} */
-
-
-html {
-  background: url(assets/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font: 6vw Oswald, sans-serif;
-  color: white;
 }
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+@media screen and (max-width:800px) {
+  .centered {
+    background-attachment:scroll;
+  }
 }
