@@ -1,9 +1,10 @@
-/* Fonts */
+
 @font-face {
   font-family: Oswald;
   src: url(assets/Oswald-ExtraLight.ttf);
 }
 
+/*
 html {
   background: url(assets/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -18,6 +19,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 #splash-header {
   position: absolute;
   font: 6vw Oswald, sans-serif;
@@ -35,10 +37,10 @@ html {
   font: 4vw Oswald, sans-serif;
   padding-bottom: 3vw;
 }
+
 .centered ul {
   padding-bottom: 3vw;
 }
-
 
 div {
   position: absolute;
@@ -57,7 +59,7 @@ div {
   color: white;
 }
 
-/* Animations */
+
 
 .items {
   transition: 50ms;
@@ -75,4 +77,21 @@ div {
 
 #text a {
   text-decoration: none;
+} */
+
+
+html {
+  background: url(assets/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: 6vw Oswald, sans-serif;
+  color: white;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
