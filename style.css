@@ -1,86 +1,23 @@
-
 @font-face {
-  font-family: Oswald;
+  font-family: " Andale Mono";
   src: url(assets/Oswald-ExtraLight.ttf);
+  color: white;
 }
 
-
 html {
-  background: url(assets/background.jpg) no-repeat center center fixed;
+  color: #dfe3e2;
+  background: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+h1 {
+  font-size: 2em;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
-
-#splash-header {
-  position: absolute;
-  font: 6vw Oswald, sans-serif;
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -300%);
-}
-
-.centered li {
-  float: left;
-  padding-left: 3vw;
+a {
+  color: #dfe3e2;
   text-decoration: none;
-  color: white;
-  font: 4vw Oswald, sans-serif;
-  padding-bottom: 3vw;
-}
-
-.centered ul {
-  padding-bottom: 3vw;
-}
-
-div {
-  position: absolute;
-  font: 1vw Oswald, sans-serif;
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-40%, 40%);
-}
-button {
-  background-color: none;
-  text-decoration: none;
-  color: white;
-}
-div {
-  color: white;
-}
-
-
-
-.items {
-  transition: 50ms;
-}
-
-.items:hover {
-  color: red;
-  cursor: pointer;
-}
-
-#text ul{
-  padding-left: 20%;
-  list-style: circle;
-}
-
-#text a {
-  text-decoration: none;
-}
-
-@media screen and (max-width:800px) {
-  .centered {
-    background-attachment:scroll;
-  }
 }
