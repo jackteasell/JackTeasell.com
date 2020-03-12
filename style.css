@@ -9,7 +9,7 @@ html {
   font-smooth: auto;
   font-weight: 300;
   line-height: 1.5;
-  color: #444;
+  color: #ffff;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background-color: #787e81;
+  background-color: rgb(102, 3, 3);
 }
 .title{
   font-size: 50px;
