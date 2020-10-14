@@ -6,18 +6,16 @@
 
 html {
     font-family: SourceSans;
+    background: #dadada;
 }
 
 /*Header*/
 
 #header {
-    background: white;
+    background: #f2f2f2;
     position: fixed;
     width: 100%;
     padding: 1em;
-    border: 5px solid black;
-    border-radius: 5px;
-    border-top: 0px;
 }
 
 #title {
@@ -46,14 +44,20 @@ html {
     background-size: cover;
 }
 
+
+#main {
+    font-size: 10em;
+    margin-bottom: 10000px;
+}
+
 #footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display:flex;
     align-items:flex-end;
     padding-left: 45%;
 }
 #footer img {
-    width: 2em;
+    width: 1.5em;
     padding: 1em;
 }
