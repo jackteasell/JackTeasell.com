@@ -1,7 +1,12 @@
+.icon {
+    color: black;
+    display: none;
+}
 @font-face {
     font-family: SourceSans;
     src: url(/css/source-font/SourceSansPro-Regular.ttf)
 }
+
 
 
 html {
@@ -10,6 +15,7 @@ html {
 }
 
 /*Header*/
+
 
 #header {
     background: #f2f2f2;
@@ -26,11 +32,29 @@ html {
 }
 
 .header-list {
-    font-size: 1em;
+    font-size: 1.5em;
     float: right;
     margin-right: 3em;
     margin-top: 0.5em;
     color: black;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+
+  #title {
+      font-size: 1.5em;
+
+  }
+  .header-list {
+      float: none;
+      position: sticky;
+      margin-right: 0;
+      margin-top: 0;
+      margin-left: 1em;
+      text-decoration: none;
+      color: #8c1f1f;
+  }
+
 }
 
 #below-header{
@@ -46,18 +70,23 @@ html {
 
 
 #main {
-    font-size: 10em;
-    margin-bottom: 10000px;
+    margin: 25px;
+}
+h1 {
+    font-size: 1.5em;
 }
 
 #footer {
     position: fixed;
     bottom: 0;
-    display:flex;
-    align-items:flex-end;
-    padding-left: 45%;
+    /* padding-left: 45%; */
+    background-color: black;
+    width: 100%;
+    
 }
 #footer img {
-    width: 1.5em;
-    padding: 1em;
+    width: 1em;
+    padding: .5em;
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
