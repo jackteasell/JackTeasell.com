@@ -1,92 +1,37 @@
-.icon {
-    color: black;
-    display: none;
-}
+
 @font-face {
-    font-family: SourceSans;
-    src: url(/css/source-font/SourceSansPro-Regular.ttf)
+    font-family: RobotoMono;
+    src: url(css/source-font/RobotoMono-VariableFont_wght.ttf)
 }
 
 
 
 html {
-    font-family: SourceSans;
-    background: #dadada;
+    font-family: RobotoMono, monospace;
+    background: #fffff;
 }
 
-/*Header*/
-
-
-#header {
-    background: #f2f2f2;
-    position: fixed;
-    width: 100%;
-    padding: 1em;
+#content {
+  font-size: 14px;
+  line-height: 1.4em;
+  margin: 0 auto;
+  max-width: 720px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
-#title {
-    color: black;
-    font-size: 2em;
-    font-style: normal;
-    text-decoration: none;
+h1.title{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-top: 4em;
+  margin-bottom: 0em;
+  font-weight: 400;
+  text-align: left;
 }
-
-.header-list {
-    font-size: 1.5em;
-    float: right;
-    margin-right: 3em;
-    margin-top: 0.5em;
-    color: black;
-}
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-
-  #title {
-      font-size: 1.5em;
-
-  }
-  .header-list {
-      float: none;
-      position: sticky;
-      margin-right: 0;
-      margin-top: 0;
-      margin-left: 1em;
-      text-decoration: none;
-      color: #8c1f1f;
-  }
-
-}
-
-#below-header{
-    background-image: url("nzcave.JPG");
-    height: 500px;
-    width: 100%;
-    /* parallax */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-#main {
-    margin: 25px;
-}
-h1 {
-    font-size: 1.5em;
-}
-
-#footer {
-    position: fixed;
-    bottom: 0;
-    /* padding-left: 45%; */
-    background-color: black;
-    width: 100%;
-    
-}
-#footer img {
-    width: 1em;
-    padding: .5em;
-    -webkit-filter: invert(1);
-    filter: invert(1);
+span.subtitle{
+  display: inline-block;
+  margin-top: .25em;
+  font-size: 74.5%;
+  font-weight: 300;
+  color: #999999;
 }
