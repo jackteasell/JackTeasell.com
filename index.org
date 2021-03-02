@@ -1,0 +1,12 @@
+#+TITLE: Jack Teasell
+#+OPTIONS: toc:nil num:nil
+#+HTML_DOCTYPE: html5
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+
+#+begin_danger
+Danger
+#+end_danger
+* Jack Teasell
+** this is my website where I share notes and random stuff etc
