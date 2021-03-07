@@ -3,7 +3,7 @@
 #+OPTIONS: toc:nil num:nil
 #+HTML_DOCTYPE: html5
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/reset.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/main.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 #+BEGIN_abstract
 Email: contact.jackteasell@gmail.com
