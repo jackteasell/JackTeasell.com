@@ -6,12 +6,11 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/main.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
+#+BEGIN_abstract
 Email: contact.jackteasell@gmail.com
 Phone:  425-495-5202
 
 Software Engineer
-#+BEGIN_abstract
-Article abstract goes here.
 #+END_abstract
 -----
 * Education:
