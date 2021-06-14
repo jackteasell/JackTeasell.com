@@ -1,0 +1,4 @@
+baseURL = "jackteasell.com"
+languageCode = "en-us"
+title = "Jack Teasell"
+theme = "dimension"
