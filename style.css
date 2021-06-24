@@ -1,10 +1,34 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   outline: none;
 }
-
+.color-primary-0 {
+  color: #353755;
+} /* Main Primary color */
+.color-primary-1 {
+  color: #5056a1;
+}
+.color-primary-2 {
+  color: #44487c;
+}
+.color-primary-3 {
+  color: #212233;
+}
+.color-primary-4 {
+  color: #11121b;
+}
+@font-face {
+  font-family: forzaFont;
+  src: url(font/Forza.ttf);
+}
+@font-face {
+  font-family: madeTommy;
+  src: url(font/MADE.otf);
+}
 html {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'forzaFont';
   font-size: 16px;
   font-smooth: auto;
   font-weight: 300;
@@ -19,14 +43,12 @@ body {
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background-color: rgb(102, 3, 3);
+  background-color: #353755;
 }
-.title{
+.title {
   font-size: 50px;
   position: fixed;
   padding-bottom: 20%;
-  
-
 }
 .hover {
   position: relative;
@@ -35,13 +57,14 @@ body {
   justify-content: center;
   width: 300px;
   height: 75px;
-  background-color: #4DB6AC;
+  background-color: #353755;
   border-radius: 99px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
 }
-.hover:before, .hover:after {
+.hover:before,
+.hover:after {
   position: absolute;
   top: 0;
   display: flex;
@@ -55,16 +78,16 @@ body {
   content: '';
   left: 0;
   justify-content: flex-end;
-  background-color: #4DB6AC;
+  background-color: #5056a1;
 }
 .hover:after {
   content: '';
   right: 0;
   justify-content: flex-start;
-  background-color: #44a69c;
+  background-color: #44487c;
 }
 .hover:hover {
-  background-color: #46627f;
+  background-color: #212233;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .hover:hover span {
@@ -89,7 +112,7 @@ body {
   width: 100%;
   height: 100%;
   color: whitesmoke;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'madeTommy';
   font-size: 24px;
   font-weight: 700;
   opacity: 1;
